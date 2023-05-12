@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script defer src="./init-firebase.js"></script>
+    <title>Dent Lab</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="./js/register.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+        <ul class="logo">
+            <li><img id="logo-img" src="./image/logo.svg"></li>
+            <li><h1 class="tituloLogo">Dent<span>Lab</span></h1></li>
+        </ul>
+        </a>
+        <ul class="menu">
+            <li><a href="">HOME</a></li>
+            <li class="login"><a class="loginTexto" href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+    <section class="are-formulario">
+        <img class="image-login" src="./image/dentist-clinic.svg" alt="">
+        <form action="">
+            <h2 class="titulo-form">Olá, tudo bem?</h2>
+            <p>Crie sua conta com seu email e senha.</p>
+            <label for="email">Email: </label>
+            <input id="email" type="email" placeholder="E-mail" required>
+            <label for="password">Senha:</label>
+            <input id="password" type="password" placeholder="Senha" required>
+            <label for="password">Confirmar senha:</label>
+            <input id="confirmPassword" type="password" placeholder="Senha" required>
+            <a class="esqueceu-senha" href="./login.html">Já tem conta?</a>
+            <button id="registerButton">Cadastar</button>
+    </section>
+    </form>
+</body>
+</html>

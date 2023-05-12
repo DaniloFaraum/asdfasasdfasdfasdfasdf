@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul  {
+    display: flex;
+    gap: 24px;
+}
+li {
+    display: inline-block;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+#logo-img {
+    width: 72px;
+    height: auto;
+}
+span {
+    color: blue;
+}
+.tituloLogo {
+    font-family: var(--fontLogo);
+}
+.menu {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    color: black;
+}
+
+.login {
+    background-color: var(--cor-btn);
+    font-weight: 900;
+    font-family: var( --fonte-titulo);
+    padding-left: 2px;
+    padding-right: 2px;
+    min-width: 87px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    white-space: nowrap;
+}
+.loginTexto {
+    color: white;
+}
+@media (max-width: 900px){
+    .menu {
+        display: none;
+    }
+}
+

@@ -1,0 +1,74 @@
+.are-formulario{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-login{
+    max-width: 500px;
+    height: auto;
+}
+
+form{
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="email"]:focus, input[type="password"]:focus{
+    border-color: var(--cor-btn);
+    border-width: 2px;
+}
+
+button{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-weight: 900;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    outline: none;
+}
+
+.esqueceu-senha{
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+form p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 900px){
+    .are-formulario{
+        flex-direction: column;
+    }
+
+    .image-login{
+        margin-top: 64px;
+    }
+} 

@@ -1,0 +1,46 @@
+.ratings {
+    margin-top: 88px;
+}
+.ratings-title {
+    font-family: var(--fontLogo);
+    font-weight: 700;
+    margin-bottom: 48px;
+    font-size: 36px;
+    text-align: center;
+}
+.carousel-cell {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgba(239, 248, 254, 1);
+    border-radius: 8px;
+  }
+  .carousel {
+    height: 400px;
+  }
+  .ratings-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ratings-img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+  }
+  .ratings-user {
+    font-family: var(--fontLogo);
+    font-weight: 700;
+  }
+
+  @media (max-width: 900px){
+    .stars {
+      width: 200px;
+    }
+    .carousel-cell {
+      width: 75%;
+    }
+  }
+  
+  

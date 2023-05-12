@@ -1,0 +1,33 @@
+@import "nav.css";
+@import "variaveis.css";
+@import "header.css";
+@import "vantagens.css";
+@import "ad.css";
+@import "services.css";
+@import "professional.css";
+@import "ratings.css";
+@import "loginForm.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var( --fonte-titulo);
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto);
+}
+
+@media (max-width: 900px){
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
